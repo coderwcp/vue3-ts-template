@@ -7,7 +7,6 @@ import pkg from "./package.json";
 import dayjs from "dayjs";
 
 const { dependencies, devDependencies, name, version } = pkg;
-console.log(pkg);
 
 const __APP_INFO__ = {
   pkg: { dependencies, devDependencies, name, version },
